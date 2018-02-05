@@ -1,0 +1,197 @@
+html {
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	font-family: 'Roboto';
+	font-size: 1.8rem;
+}
+img {
+	max-width: 100%;
+}
+header {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background-color: #3a7dfd;
+	background-image: linear-gradient(-147deg, #3a7dfd 0%, #1157db 100%);
+}
+.header-before {
+	color: #fff;
+	margin-top: 9rem;
+	font-weight: 700;
+}
+.header-after {
+	color: #fff;
+	line-height: 2.5rem;
+}
+.monitor {
+	padding-top: 6rem;
+}
+h1 {
+	margin-bottom: 2.3rem;
+	margin-top: 2rem;
+	line-height: 4.6rem;
+	font-size: 4.5rem;
+	color: #fff;
+	font-weight: 700;
+}
+.header-button-block {
+	max-width: 204px;
+}
+.header-button {
+	box-shadow: 10px 12px 34px 6px rgba(18, 61, 145, 0.83);
+	border: none;
+	border-radius: 25px;
+	background-color: #ffffff;
+	color: #072b6f;
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 17px 55px;
+	margin-top: 3rem;
+}
+header small {
+	font-size: 1.2rem;
+	display: block;
+	color: #fff;
+	text-align: center;
+	margin-top: 1rem;
+}
+/* Секция портфолио */
+.portfolio {
+	background-color: #ddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block {
+	background-color: #fff;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.portfolio-title {
+	margin-bottom: 1rem;
+	color: #072b6f;
+	font-size: 2.3rem;
+}
+.portfolio-subtitle {
+	margin-bottom: 3rem;
+	color: #7bb9ff;
+	font-size: 1.4rem;
+}
+.portfolio-title, .portfolio-subtitle {
+	text-align: center;
+}
+.portfolio-col-1 {
+	padding-left: 5rem;
+}
+.portfolio-text  {
+	color: #8f8f8f;
+	font-size: 14px;
+}
+.portfolio-block a {
+	color: #072b6f;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.portfolio-block img {
+	width: 100%;
+}
+.portfolio-block h3 {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.portfolio-col-2 {
+	padding-right: 5rem;
+}
+
+/* footer */
+footer {
+	padding: 0 0 3rem;
+
+	background-color: #3a7dfd;
+	color: #fefefe;
+}
+.footer-name {
+	font-size: 2.4rem;
+	font-weight: 700;
+	margin-bottom: 0.7rem;
+}
+.footer-subname {
+	margin-top: 0;
+}
+.social-block {
+	text-align: center;
+}
+.social-block a {
+	display: inline-block;
+	margin: 0 1.3rem;
+}
+.footer-cta-block {
+	text-align: center;
+}
+.footer-button {
+	background-color: transparent;
+	display: inline-block;
+	border-radius: 50px;
+	border: 1px solid #ffffff;
+	padding: 1.2rem 4rem;
+	color: #fff;
+	font-size: 1.8rem;
+}
+.author, .social-block, .footer-cta-block {
+	margin-top: 4rem;
+}
+
+
+@media (max-width: 1200px) {
+	.header-before {
+		margin-top: 6rem;
+	}
+}
+@media (max-width: 992px) {
+	.header-before {
+		margin-top: 2rem;
+	}
+	.header-img {
+		display: none;
+	}
+	.footer-name {
+		font-size: 18px;
+	}
+	.footer-subname {
+		font-size: 14px;
+	}
+	.social-block a {
+	display: inline-block;
+	margin: 0 0.5rem;
+	}
+	.social-block img {
+	width: 3rem;
+	}
+	.footer-button {
+		padding: 1rem 2.2rem;
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 768px) {
+	.portfolio-col-1 {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-bottom: 5rem;
+	}
+	.portfolio-col-2 {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	.author {
+		text-align: center;
+	}
+	header {
+		text-align: center;
+	}
+	.header-button-block {
+		text-align: center;
+		margin: 1rem auto 0 auto;
+	}
+}
